@@ -3,6 +3,6 @@ CREATE TABLE tasks (
     name VARCHAR,
     descriprion text,
     completed BOOLEAN,
-    user_id bigint REFERENCES  users(id),
+    user_id foreign key referencing users
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
 )
