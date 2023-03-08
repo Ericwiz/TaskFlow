@@ -1,0 +1,17 @@
+{
+    "dev": {
+        "driver": "pg",
+        "user": "agu_o_wisdom",
+        "password": "Agu.wisdom1",
+        "host": "localhost",
+        "database": "myhealth"
+      },
+    
+      "test": {
+        "driver": "pg",
+        "user": "agu_o_wisdom",
+        "password": "Agu.wisdom1",
+        "host": "localhost",
+        "database": "myhealth_test"
+      }
+}
