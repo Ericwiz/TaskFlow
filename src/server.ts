@@ -15,4 +15,6 @@ const port = process.env.PORT
 app.use(bodyParser.json())
 app.use(cors(corsOptions))
 
-app.get()
+app.get('/', (_req: Request, res: Response) => {
+  res.send('<h1> TaskFlow </h1>')
+})
